@@ -15,6 +15,25 @@ turtle.setup (width=600, height=600)    # Set the size of the window
 tina = turtle.Turtle()                  # Create a turtle named tina
 
 # Use tina.forward() and tina.left() to draw a triangle
+tina.pendown()
+tina.begin_fill
+tina.color("blue")
+tina.forward(204)
+tina.color("green")
+tina.left(135)
+tina.penup()
+
+tina.pendown()
+tina.forward(150)
+tina.color("red")
+tina.end_fill
+tina.left(90)
+tina.penup()
+
+tina.pendown()
+tina.forward(150)
+
+
 # Make each side of the triangle a different color with 
 # tina.pencolor()
 
