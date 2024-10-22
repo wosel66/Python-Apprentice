@@ -1,6 +1,5 @@
-import pygame
-import random
-
+import pygame  
+import random         
 # Initialize Pygame
 pygame.init()
 
@@ -15,7 +14,7 @@ BLACK = (0, 0, 0)
 # Game settings
 PLAYER_SIZE = 50
 OBSTACLE_WIDTH = 50
-OBSTACLE_HEIGHT = 50
+OBSTACLE_HEIGHT = 50 
 OBSTACLE_SPEED = 10
 GRAVITY = 1
 JUMP_STRENGTH = 15
