@@ -29,7 +29,7 @@ t = turtle.Turtle()
 
 t.shape("turtle") 
 
-t.width(2) 
+t.width(4) 
 
 t.speed(0) 
 
@@ -40,9 +40,9 @@ for i in range(25):
    
     t.begin_fill()
 
-    t.forward(64) 
+    t.forward(84) 
 
-    t.left(40) 
+    t.left(60) 
 
     t.forward(flameSize) 
 
